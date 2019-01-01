@@ -1,0 +1,371 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.first-screen {
+  background: url(../img/128.jpeg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 650px;
+}
+
+.shadow {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 650px;
+}
+
+.main-header {
+  background-color: white;
+}
+
+.head {
+  height: 95px;
+  position: relative;
+}
+
+.smallLogo {
+  display: none;
+}
+
+.logo {
+  padding-top: 10px;
+  float: left;
+}
+
+.info {
+  float: left;
+  width: 375px;
+  text-align: center;
+  margin-left: 62px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3A4047;
+}
+
+.schedule {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3A4047;
+  margin-bottom: 0;
+}
+
+.profile {
+  float: right;
+  padding-top: 23px;
+  width: 135px;
+}
+
+.profile a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #3A4047;;
+}
+
+.profile a:hover {
+  color: #1AB0CE;
+}
+
+.loginimg {
+  float: left;
+  padding-top: 2px;
+}
+
+.loginlink {
+  float: left;
+  margin-left: 8px;
+}
+
+.hideSearch {
+  display: none;
+}
+
+.fb {
+  text-align: right;
+  margin-top: 19px;
+}
+
+.fb a:hover path {
+  stroke: #1AB0CE;
+}
+
+.contacts {
+  float: right;
+  width: 200px;
+  padding-top: 25px;
+}
+
+.hideLogin {
+  display: none;
+}
+
+.email {
+  text-align: right;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.email a {
+  color: #3A4047;
+}
+
+.email a:hover {
+  color: #1AB0CE;
+}
+
+.groupOff {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.groupOff:hover path {
+  stroke: #1AB0CE;
+}
+
+.phone {
+  padding-top: 22px;
+  text-align: right;
+}
+
+.header-phones {
+  float: right;
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.groupOn:hover path {
+  stroke: #1AB0CE;
+}
+
+.phoneimg {
+  float: right;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 16px;
+  color: #3A4047;
+  margin: 0 5px;
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.phones {
+  border: 1px solid black;
+  height: 167px;
+  width: 219px;
+  position: absolute;
+  background-color: white;
+  top: 40px;
+  right: -12px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+  top: -18px;
+  right: 0;
+}
+
+.cube {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pimage {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.pnumbers {
+  font-size: 16px;
+  color: #3A4047;
+}
+
+.pnumbers p {
+  margin-top: 28px;
+}
+
+.cart {
+  float: right;
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+
+.ellipse {
+  position: absolute;
+  top: 28px;
+  right: 0;
+}
+
+.shopping-cart {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+
+.amount {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  color: white;
+}
+
+.hideCart {
+  display: none;
+  height: 85px;
+  width: 65px;
+}
+
+.hideMenu {
+  display: none;
+}
+
+.menu {
+  margin-top: -2px;
+  position: relative;
+  z-index: 1;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #3A4047;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.menu-main {
+  margin-right: 20px;
+}
+
+.production div {
+  width: 170px;
+}
+
+.deliver div {
+  width: 235px;
+}
+
+.news div {
+  width: 150px;
+}
+
+.database div {
+  width: 185px;
+}
+
+.aboutUs div {
+  width: 115px;
+}
+
+.contactUs div {
+  width: 145px;
+}
+
+.menu a:hover line {
+  stroke: #1AB0CE;
+}
+
+.menu a:hover {
+  color: #1AB0CE;
+}
+
+.border > div {
+  border-top: 1px solid white;
+}
+
+.border:hover > div {
+  border-top: 1px solid #1AB0CE
+}
+
+.menu__search {
+  position: relative;
+}
+
+.search {
+  margin-left: 6px;
+}
+
+.search svg:hover path {
+  stroke: #1AB0CE;
+}
+
+.input {
+  border-radius: 5px;
+  color: #3A4047;
+  font-size: 16px;
+  outline: 0;
+  outline-offset: 0;
+}
+
+.button {
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  outline: 0;
+  outline-offset: 0;
+  background: #1AB0CE;
+  padding-top: 2px;
+}
+
+.search-form {
+  /* display: none; */
+  position: absolute;
+  width: 280px;
+  bottom: 23px;
+  right: 15px;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+#checking {
+  display: none;
+}
+
+#checking:checked ~ .search-form {
+  /* display: block; */
+  opacity: 1;
+  transform: scale(1);
+}
+
+#checking:checked ~ .search svg path {
+  stroke: #1AB0CE;
+}

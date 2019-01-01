@@ -1,0 +1,830 @@
+div
+  box-sizing: border-box
+
+#callMe
+  position: fixed
+  bottom: 5px
+  right: 5px
+  cursor: pointer
+  display: none
+  z-index: 4
+
+  &:hover circle
+    fill: #1AB0CE
+
+#call-background
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  z-index: 3
+
+#call-form
+  background-color: white
+  width: 500px
+  height: 450px
+  border: 1px solid #1AB0CE
+  border-radius: 40px
+  margin: 15% auto
+
+#application
+    width: 475px
+    margin: 0 auto
+
+#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus
+    border: 1px solid #1AB0CE
+    border-radius:  40px
+    outline: 0
+    outline-offset: 0
+
+#applicationName, #applicationEmail, #applicationTelephone
+    width: 100%
+    height: 73px
+    background: none
+    margin-top: 25px
+    border: 1px solid #1AB0CE
+    border-radius: 40px
+    text-align: center
+    color: black
+    font-size: 24px
+
+.applicationButton
+    margin-top: 25px
+    background: #30ad64
+    border: none
+    width: 100%
+    height: 73px
+    border-radius: 40px
+    color: #fff
+    font-size: 24px
+    text-transform: uppercase
+    cursor: pointer
+    padding-top: 7px
+    outline: 0
+    outline-offset: 0
+
+    &:hover
+        background: #1AB0CE
+
+.hide-form
+  float: right
+  margin-top: 15px
+  margin-right: 15px
+
+  svg:hover path
+    stroke: #1AB0CE
+
+#applicationName
+  margin-top: 0
+
+.main-title
+  text-align: center
+  padding: 0
+  margin: 0
+  margin-top: 180px
+
+  h1
+    padding: 0
+    margin: 0
+    color: #fff
+    font-size: 55px
+
+.delimiter
+  width: 120px
+  height: 2px
+  background: #fff
+  margin: 20px auto
+
+.header-title
+  font-size: 23px
+  color: #fff
+  text-align: center
+  padding-top: 5px
+
+.header-bottom
+  box-sizing: border-box
+  display: block
+  height: 50px
+  width: 200px
+  background-color: #1AB0CE
+  color: #fff
+  text-decoration: none
+  border-radius: 2px
+  margin: 25px auto
+  font-size: 16px
+  text-align: center
+  font-weight: bold
+  padding-top: 15px
+
+.section-production
+  margin-top: 50px
+
+h2
+  text-align: center
+  color: #3A4047
+  font-size: 35px
+  margin-top: 30px
+  font-weight: normal
+
+.flex-container
+  display: flex
+  justify-content: space-around
+
+.product-box
+  width: 370px
+  height: 290px
+  border: 1px solid #DCE1E6
+  display: flex
+  justify-content: center
+
+  h3
+    color: #3A4047
+    text-transform: uppercase
+    font-size: 15px
+    font-weight: bold
+    margin: 0
+    padding-bottom: 8px
+
+  ul, li
+    margin: 0
+    padding: 0
+    list-style-position: outside
+
+  li
+    list-style: none
+    margin-top: 18px
+
+  a
+    font-size: 14px
+    color: #3A4047
+    text-decoration: none
+
+
+    &:hover
+      color: #1AB0CE
+
+.product-box
+  padding-top: 30px
+
+.section-production_offers
+  margin-top: 45px
+
+.office-product__label
+  margin-right: 50px
+
+.market-product__List
+  display: flex
+  justify-content: space-between
+
+.market-product__label
+  margin-right: 30px
+
+.buisiness-product__label
+  margin-right: 50px
+
+.section-aboutUs
+  margin-top: 50px
+
+  h3
+    font-size: 24px
+    text-align: center
+    color: #3A4047
+    font-weight: normal
+
+.aboutUs__text
+  font-size: 14px
+  text-align: justify
+  color: #3A4047
+  line-height: 1.5
+
+hr
+  border: none
+  height: 2px
+  background-color: #E8EDF2
+  margin-top: 40px
+  margin-bottom: 45px
+
+.section-news__event
+  text-align: center
+  padding-bottom: 40px
+
+  .bottom-place
+    height: 30px
+
+  &:hover
+    .section-news__bottom
+      display: inline
+
+  a
+    color: #3A4047
+    text-decoration: none
+
+  .event-description
+    display: block
+    border-top: 1px solid white
+    padding: 25px 35px
+    margin-bottom: 50px
+
+  .event-description:hover
+    border-color: #1AB0CE
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.05)
+
+    .event_text
+      color: #1AB0CE
+      text-decoration: underline
+
+  .event-date
+    font-size: 14px
+    color: #BEC7D1
+
+  .section-news__bottom
+    border: 1px solid #3A4047
+    font-size: 14px
+    padding: 8px 15px
+    display: none
+
+    &:hover
+      color: #1AB0CE
+      border-color: #1AB0CE
+
+footer
+  font-size: 14px
+  color: #3A4047
+  background-color: rgba(0, 0, 0, 0.03)
+  padding-top: 15px
+
+  ul, li
+    margin: 0
+    padding: 0
+    list-style-position: outside
+
+  li
+    list-style: none
+
+  a
+    color: #3A4047
+    text-decoration: underline
+
+    &:hover
+      color: #1AB0CE
+
+.flex-between
+  display: flex
+  justify-content: space-between
+
+.footer__info
+  text-align: left
+  width: 260px
+  padding-top: 12px
+
+  p
+    margin-top: 38px
+
+.footer__menu
+  padding-top: 12px
+
+  li
+    margin-bottom: 26px
+
+.footer__menu-left
+  margin-right: 65px
+
+.footer__contacts
+  padding-top: 10px
+
+.footer__contacts_phones
+  position: relative
+
+  span
+    display: inline-block
+    font-weight: bold
+    font-size: 16px
+    color: #3A4047
+    height: 26px
+    vertical-align: middle
+    padding: 0 5px
+
+
+
+.footer-fb
+  text-decoration: none
+  margin-right: 25px
+
+  &:hover path
+    stroke: #1AB0CE
+
+.footer__contacts_contct
+  text-align: right
+  margin-top: 12px
+
+.footer__contacts_profile
+  text-align: right
+  margin-top: 24px
+
+  a
+    display: inline-block
+    height: 20px
+    vertical-align: middle
+
+.footer-hide-phones
+  position: relative
+  height: 20px
+  width: 20px
+  display: inline-block
+
+.footer-phones
+  border: 1px solid black
+  height: 165px
+  width: 215px
+  display: flex
+  justify-content: center
+  font-size: 16px
+  color: #3A4047
+  background-color: white
+  position: absolute
+  top: -190px
+  right: -10px
+
+  .phones-image
+    margin-top: 5px
+    margin-right: 10px
+
+  .phones-numbers p
+    margin-top: 28px
+
+.phones-arrow
+  position: absolute
+  bottom: -25px
+  right: 0
+
+.phones-cube
+  background-color: white
+  position: absolute
+  bottom: 0px
+  right: 1px
+
+.footer-phonesOff
+  position: absolute
+  bottom: 0
+  right: 0
+
+.footer-phonesOn:hover path, .footer-phonesOff:hover path
+  stroke: #1AB0CE
+
+@media only screen and (max-width: 1440px)
+
+  #callMe
+    position: fixed
+    bottom: 25px
+    left: 10px
+    width: 125px
+
+@media only screen and (max-width: 1175px)
+
+  .logo, .info, .profile, .loginimg, .lodinlink, .contacts, .groupOn, .phoneimg, .number, .pimage, .pnumbers, .cart
+    float: none
+
+  .head
+    display: flex
+    justify-content: space-around
+    height: 110px
+
+  .info
+    font-size: 14px
+    width: 250px
+    line-height: 1.1
+    margin-left: 5px
+
+    .schedule
+      margin-top: -8px
+
+  .cart
+    display: none
+
+  .hideCart
+    display: block
+    margin-top: -10px
+
+  .phoneimg
+    display: none
+
+  .contacts
+    padding-top: 14px
+    width: 150px
+
+  .phone
+    padding-top: 0
+
+  .bot
+    display: flex
+    justify-content: center
+    margin-top: 35px
+
+  .profile
+    padding-top: 0
+    margin-top: 13px
+
+  .login
+    display: flex
+    justify-content: space-between
+
+  .fb
+    margin-top: 26px
+
+  .menu
+    ul, li
+      margin: 0
+      padding: 0
+      display: block
+
+    ul
+      display: flex
+      justify-content: space-between
+
+    .menu-main
+      margin: 0
+
+    .production div
+      width: 110px
+
+    .deliver div
+      width: 180px
+
+    .news div
+      width: 90px
+
+    .database div
+      width: 120px
+
+    .aboutUs div
+      width: 60px
+
+    .contactUs div
+      width: 100px
+
+    .search
+      margin: 0
+      margin-top: 12px
+      margin-right: 3px
+
+    .search-form
+      bottom: 40px
+
+  .main-title
+    margin-top: 120px
+
+  .product-box
+    width: 295px
+
+  .footer__phoneImg
+    display: none
+
+  .footer__menu-left
+    margin-right: 10px
+
+  .footer-fb
+    margin-right: 3px
+
+@media only screen and (max-width: 900px)
+
+  .mediaHide
+    display: none
+
+  .office-product__label, .market-product__label, .buisiness-product__label
+    margin-right: 10px
+
+  .product-box
+    width: 250px
+
+@media only screen and (max-width: 760px)
+
+  .hideCart
+    display: none
+
+  .menu
+    display: none
+
+  .flex-container
+    flex-direction: column
+
+  .product-box
+    width: 295px
+
+  .office-product__label, .market-product__label, .buisiness-product__label
+    margin-right: 20px
+
+  .product-box
+    margin: 10px auto
+
+  .section-news__event
+    margin: 10px auto
+
+  .bigLogo
+    display: none
+
+  .login
+    display: none
+
+  .main-title
+    margin-top: 50px
+
+  #call-form
+    width: 290px
+    height: 375px
+
+  #application
+      width: 275px
+
+  #applicationName, #applicationEmail, #applicationTelephone
+      width: 100%
+      height: 70px
+      margin-top: 10px
+
+  .applicationButton
+      margin-top: 10px
+      height: 70px
+
+  .hide-form
+    margin-top: 10px
+    margin-bottom: -10px
+
+  .smallLogo
+    display: block
+
+  .contacts
+    width: 150px
+    padding-top: 10px
+
+  .email
+    font-size: 12px
+    line-height: 1
+    text-align: center
+    margin-bottom: 5px
+
+  .phone
+    padding-top: 0
+
+  .header-phones
+    margin-top: -4px
+
+  .number
+    font-size: 14px
+    margin: 0
+    margin-left: 5px
+    padding-top: 0
+
+  .bot
+    margin-top: 10px
+
+  #callMe
+    bottom: 10px
+    left: 10px
+
+  .hideLogin
+    display: block
+    text-align: center
+
+    .hideLoginimg
+      display: inline-block
+
+    .hideLoginlink
+      font-size: 13px
+      display: inline-block
+
+      a
+        color: #3A4047
+
+        &:hover
+          color: #1AB0CE
+
+  .profile
+    padding: 0
+    margin: 0
+    width: 20px
+
+  .fb
+    margin-top: 10px
+
+  .hideSearch
+    display: block
+    position: relative
+    margin-top: 8px
+
+  #hideChecking
+    display: none
+
+  #hideChecking:checked ~ .hideSearch-form
+    opacity: 1
+    transform: scale(1)
+
+  #hideChecking:checked ~ .search svg path
+    stroke: #1AB0CE
+
+  .hideSearch-form
+    position: absolute
+    width: 275px
+    bottom: 30px
+    right: 15px
+    transition: 0.5s
+    transform: scale(0)
+
+  .head
+    height: 73px
+
+  .hideMenu
+    margin-top: 10px
+    display: block
+    position: relative
+    z-index: 2
+
+
+  #menuChecking
+    display: none
+
+  .hideMenu__icon
+    background-color: rgba(0, 0, 0, 0.1)
+    text-align: center
+    height: 25px
+    padding-top: 5px
+    margin-top: 5px
+
+    .openedMenu
+      display: none
+      padding-top: 6px
+
+
+    &:hover path
+      stroke: #1AB0CE
+
+  .hideMenu__list
+    display: none
+    background-color: white
+    width: 100%
+    position: absolute
+    top: 25px
+    left: 0
+
+    ul, li
+      margin: 0
+      padding: 0
+      display: block
+      text-align: center
+    ul
+      margin-top: 10px
+      padding-bottom: 5px
+      border-bottom: 5px solid rgba(0, 0, 0, 0.1)
+
+    a
+      text-decoration: none
+      color: #3A4047
+      font-size: 16px
+      text-transform: uppercase
+      display: inline-block
+      border-top: 1px solid white
+      padding-top: 8px
+      margin-bottom: 3px
+
+      &:hover
+        color: #1AB0CE
+        border-top: 1px solid #1AB0CE
+
+  .first-screen, .shadow
+    min-height: 380px
+
+  .main-title
+    margin-top: 20px
+
+    h1
+      font-size: 30px
+
+  .delimiter
+    margin-top: 10px
+    margin-bottom: 5px
+
+  .header-title
+    font-size: 18px
+
+  .header-bottom
+    height: 45px
+    width: 140px
+    margin-top: 20px
+
+  .section-production
+    margin-top: 20px
+
+    h2
+      font-size: 25px
+      margin-top: 0
+      margin-bottom: 0
+
+    .section-production_offers
+      margin-top: 10px
+
+    .product-box
+      margin-top: 3px
+
+  .section-aboutUs
+    margin-top: 20px
+
+    h2
+      margin-top: 0
+      margin-bottom: 0
+      font-size: 28px
+
+    h3
+      margin-top: 10px
+      font-size: 20px
+
+  hr
+    margin-top: 15px
+    margin-bottom: 10px
+
+  .section-news
+    margin-top: 15px
+
+    h2
+      margin-top: 0
+      margin-bottom: 0
+      font-size: 28px
+
+  .section-news__event
+      padding-bottom: 15px
+
+  footer
+    padding-top: 5px
+
+    .smallLogo p
+      font-size: 10px
+      margin-top: -5px
+
+    .footer__menu
+      display: none
+
+    .footer__contacts_contct
+      display: none
+
+    .footer__contacts span
+      font-size: 12px
+
+    .footer-fb
+      margin-right: 0
+
+    .footer__contacts_profile
+      margin-top: 10px
+      margin-right: 10px
+
+.section-production_offers a:hover
+  text-decoration: underline
+
+p
+  cursor: default
+
+h1, h2, h3
+  cursor: default
+
+a
+  cursor: pointer
+
+.number
+  cursor: default
+
+.bigMenu p
+  cursor: pointer
+
+.header-phones
+  cursor: pointer
+
+.search label
+  cursor: pointer
+
+.hide-form
+  cursor: pointer
+
+.header-title
+  cursor: default
+
+.aboutUs__text
+  cursor: default
+
+.section-news__event p
+  cursor: pointer
+
+.footer__info
+  cursor: default
+
+.footer__contacts_phones span
+  cursor: default
+
+.footer-hide-phones
+  cursor: pointer
+
+.footer-phones
+  cursor: default
+
+.phones
+  cursor: default
+
+.hideMenu__icon
+  cursor: pointer
